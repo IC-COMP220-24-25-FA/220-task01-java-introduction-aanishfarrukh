@@ -46,20 +46,17 @@ public class CircleTest {
     
         myCircle = new Circle(0.001);
         assertEquals(0.002, myCircle.longestLineWithin(), 0.0001);
-}
+    }
 
 
-@Test
-public void doubleSizeTest() {
+    @Test
+    public void doubleSizeTest() {
     
-    Circle myCircle = new Circle(2);
+        Circle myCircle = new Circle(2);
+        myCircle.doubleSize();
     
-    
-    myCircle.doubleSize();
-    
-    
-    assertEquals(4, myCircle.getRadius(), 0.0001);
-}
+        assertEquals(4, myCircle.getRadius(), 0.0001);
+    }
 
     
 }
