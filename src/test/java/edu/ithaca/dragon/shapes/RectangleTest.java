@@ -36,6 +36,8 @@ public class RectangleTest {
         assertEquals(4, myRectangle1.getWidth(), 0.0001);
         assertEquals(6, myRectangle1.getLength(), 0.0001);
 
+        // just adding this to ensure the sizes are updated properly or not
+        assertEquals(24, myRectangle1.calcArea());
     }
 
     @Test
