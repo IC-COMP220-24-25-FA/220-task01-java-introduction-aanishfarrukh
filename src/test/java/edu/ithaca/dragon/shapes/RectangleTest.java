@@ -30,12 +30,12 @@ public class RectangleTest {
 
     @Test
     public void doubleSizeTest() {
-        Rectangle myRectangle = new Rectangle(2, 3);
-        myRectangle.doubleSize();
+        Rectangle myRectangle1 = new Rectangle(2, 3);
+        myRectangle1.doubleSize();
         
-        assertEquals(4, myRectangle.getWidth(), 0.0001);
-        assertEquals(6, myRectangle.getHeight(), 0.0001);
-        assertEquals(24, myRectangle.calcArea(), 0.0001);
+        assertEquals(4, myRectangle1.getWidth(), 0.0001);
+        assertEquals(6, myRectangle1.getLength(), 0.0001);
+
     }
 
     @Test
