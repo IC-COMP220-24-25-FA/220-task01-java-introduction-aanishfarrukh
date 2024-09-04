@@ -21,7 +21,7 @@ public class Circle {
      * @post doubles the size of this circle
      */
     public void doubleSize(){
-        throw new RuntimeException("Not implemented yet");
+        this.radius *= 2;
     }
 
     /**
@@ -30,4 +30,11 @@ public class Circle {
     public double longestLineWithin(){
         return 2 * radius;
     }
+
+
+    public double getRadius() {
+        // adding a getter for radius (need it in testing)
+        return radius;
+    }
+    
 }
